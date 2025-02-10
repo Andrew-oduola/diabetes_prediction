@@ -89,7 +89,7 @@ def main():
         insulin = st.number_input("Insulin", 0, 846, 30, help="2-Hour serum insulin (mu U/ml)")
         bmi = st.number_input("BMI", 0.0, 67.1, 32.0, help="Body mass index (weight in kg/(height in m)^2)")
         dpf = st.number_input("Diabetes Pedigree Function", 0.078, 2.42, 0.3725, help="Diabetes pedigree function")
-        age = st.number_input("Age", 21, 81, 29, help="Age in years")
+        age = st.number_input("Age", 4, 100, 29, help="Age in years")
 
     # Make a list of the input data
     input_data = [pregnancies, glucose, blood_pressure, skin_thickness, insulin, bmi, dpf, age]
